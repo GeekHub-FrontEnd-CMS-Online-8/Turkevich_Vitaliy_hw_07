@@ -1,0 +1,20 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitaliy Turkevich",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-cli": "^2.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-scss": "^1.4.0",
+    "imagemin-pngquant": "^6.0.0"
+  }
+}
