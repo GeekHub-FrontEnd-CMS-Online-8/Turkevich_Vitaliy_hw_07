@@ -1,3 +1,150 @@
+@import "bootstrap.min.css";
+@import "_fonts.css";
+$color1: #8d81ac;
+$color2: #635c73;
+$color3: #848e97;
+
+h2{
+  font-size: 48px;
+  font-weight: bold;
+}
 body{
+  font-family: Montserrat, SourceSansPro;
   margin: 0;
 }
+.btn{
+  color: #fff;
+  background: $color1;
+
+  border-radius: 25px;
+}
+header{
+  background: url("../img/bg1.png") center no-repeat;
+  height: 750px;
+  & .container{
+    & h1{
+      color: #ffffff;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 82px;
+    }
+    & p{
+      font-size: 24px;
+      color: $color1;
+    }
+    & span{
+      font-size: 16px;
+      color: $color3;
+    }
+  }
+}
+#collapsibleNavbar{
+  page-break-before: always;
+}
+#editor{
+  & button{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: -25px;
+  }
+  & h2{
+    color: $color2;
+  }
+  & span{
+    font-size: 14px;
+    color: $color2;
+  }
+  & p{
+    color: #323232;
+  }
+  
+}
+
+#hereIs{
+  background: #f4f4f4;
+  overflow: hidden;
+
+  & h2{
+    color: #8d81ac;
+  }
+  & h4{
+    font-size: 16px;
+    color: #323232;
+  }
+  & p{
+    color: #848e97;
+    font-size: 14px;
+  }
+
+  .future-list{
+    min-width: 111px;
+    page-break-after: always;
+  }
+  & .card-img{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-basis: 111px;
+    padding-top: 1.25rem;
+  }
+  & .card-body{
+    flex: 1;
+  }
+}
+
+#carousel{
+  & .carousel-inner{
+    padding: 0 10%;
+  }
+  & .carousel-control-prev-icon{
+    background: url("../img/ArrowL.png") no-repeat;
+  }
+  & .carousel-control-next-icon{
+    background: url("../img/ArrowR.png") no-repeat;
+  }
+}
+
+#fork{
+  background: url("../img/bg2.png") #4a3b4e;
+  padding: 30px 0;
+  & h2, & p{
+    color: #ffffff;
+  }
+  & h2{
+    margin: 3rem auto;
+  }
+  & p{
+    font-family: SourceSansPro;
+    font-style: italic;
+  }
+  & .card-group img{
+    margin: 20px 0;
+  }
+  & hr{
+    border: 1px solid white;
+    width: 80%;
+    opacity: .5;
+  }
+}
+
+#pricing{
+  background: url("../img/bg3.png") #4a3b4e;
+  color: #ffffff;
+  & .container{
+    & .crd{
+      background: rgba(255, 255, 255, .1);
+      flex-flow: column wrap;
+      justify-content: space-between;
+    }
+  }
+  & p{
+    flex: 1 1 auto;
+  }
+  & button{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+}
+
+

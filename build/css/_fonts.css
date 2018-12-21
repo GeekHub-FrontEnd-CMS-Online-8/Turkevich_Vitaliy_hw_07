@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../fonts/SourceSansPro-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../fonts/SourceSansPro-BoldIt.otf");
+  font-weight: bold;
+  font-style: italic; }
